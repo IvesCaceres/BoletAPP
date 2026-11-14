@@ -1,5 +1,5 @@
-# MIT proposal — not adopted
+# License adoption and scope
 
-MIT is proposed for original software and associated software documentation, subject to owner confirmation of rights, contributor/contract restrictions, exact copyright holder and approval of final text. No effective root LICENSE is added now. The draft is retained outside the candidate in the preparation audit.
+The owner has authorized MIT for the original AppBoletas code and associated software documentation. The effective standard text is in the root LICENSE: Copyright (c) 2026 Ives Cáceres. This document supersedes the earlier proposal.
 
-The proposal does not relicense third-party components, databases, individual tax records, browser sessions, credentials or other private material. No exclusive ownership of upstream methods is asserted.
+Third-party components retain their own licenses and notices; see THIRD_PARTY.md. MIT does not extend to private databases, individual tax records, browser sessions, credentials, third-party material or the privately preserved legacy installer. No exclusive ownership of upstream methods is asserted.

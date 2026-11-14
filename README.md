@@ -2,7 +2,7 @@
 
 Independent Windows application for preparing and managing Chilean electronic professional-fee receipts (Boletas de Honorarios Electrónicas, BHE). It is not an official SII application or endorsement.
 
-**Sanitized public-code candidate, not published. The original private project and v0.4.0 installer are preserved separately. No legacy Git history, real records, credentials or installer binaries are included here. MIT is proposed, not yet adopted.**
+**Sanitized public-code candidate, not published. The original private project and v0.4.0 installer are preserved separately. No legacy Git history, real records, credentials or installer binaries are included here. Original code is licensed under MIT.**
 
 ## Architecture and features
 
@@ -61,8 +61,8 @@ Packaging sources remain under packaging/ and scripts/. The original v0.4.0 tag,
 
 Windows clean-machine installer validation remains PENDING. No real emission is performed. See docs/WINDOWS_VALIDATION.md; prior packaging documents describe earlier evidence/plans, not certification of this candidate.
 
-## Dependencies and proposed license
+## Dependencies and license
 
 See docs/THIRD_PARTY.md, docs/LICENSE_PROPOSAL.md and docs/PRIVACY.md. Libraries retain their own licenses; no third-party environment, node_modules or runtime is distributed. Known development-tool advisories and backend dependency-lock limitations are documented. Avoid test UI/API exposure and review dependency updates before publication.
 
-MIT for original software is only a proposal until rights, copyright holder and exact license are approved. It does not grant access to private records or replace third-party terms. No claim of tax, clinical or government validation is made.
+Original code and its associated software documentation are distributed under the MIT license in LICENSE, copyright (c) 2026 Ives Cáceres. This license does not relicense third-party components or grant rights to private tax data, credentials, sessions or other third-party material. No claim of tax, clinical or government validation is made.
