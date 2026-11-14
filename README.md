@@ -12,7 +12,7 @@ Client management, individual receipts, monthly/manual batches and local emissio
 
 ## Local development
 
-Review and approve dependencies before installing them into an isolated environment:
+Frontend validation uses Node.js 24.14.0 (Vitest 4 requires a supported Node 20, 22 or 24+ release) and Vite 6.4.6. Review and approve dependencies before installing them into an isolated environment:
 
 ```powershell
 cd backend
@@ -63,6 +63,6 @@ Windows clean-machine installer validation remains PENDING. No real emission is 
 
 ## Dependencies and license
 
-See docs/THIRD_PARTY.md, docs/LICENSE_PROPOSAL.md and docs/PRIVACY.md. Libraries retain their own licenses; no third-party environment, node_modules or runtime is distributed. Known development-tool advisories and backend dependency-lock limitations are documented. Avoid test UI/API exposure and review dependency updates before publication.
+See docs/THIRD_PARTY.md, docs/LICENSE_PROPOSAL.md and docs/PRIVACY.md. Libraries retain their own licenses; no third-party environment, node_modules or runtime is distributed. The resolved frontend dependency audit reports zero known vulnerabilities as of 2026-11-14; backend dependency-lock limitations remain documented. Avoid test UI/API exposure and review dependency updates before publication.
 
 Original code and its associated software documentation are distributed under the MIT license in LICENSE, copyright (c) 2026 Ives Cáceres. This license does not relicense third-party components or grant rights to private tax data, credentials, sessions or other third-party material. No claim of tax, clinical or government validation is made.
