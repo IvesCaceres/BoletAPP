@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+  <body>
+    <p>Resultado de la operación</p>
+    <form name="form1">
+      <input type="hidden" name="txt_codigo_barra" value="SYNTHETIC-BARCODE" />
+      <input name="cmdimprimiroriginal" value="Ver Boleta" />
+      <input name="cmdenviar" value="Enviar Boleta por e-mail" />
+      <input name="cmdemitir1" value="Emitir nueva boleta" />
+      <input name="cmdemitir2" value="Emitir boleta con prellenado" />
+    </form>
+    <iframe srcdoc="<!doctype html><html lang='es'><body>
+      <h1>BOLETA DE HONORARIOS ELECTRONICA</h1>
+      <p>N ° 54321</p>
+      <p>Fecha / Hora Emisión: 01/09/2026 10:30</p>
+      <p>Res. Ex. N° 83</p>
+      <a href='javascript:print()'>Ver PDF</a>
+    </body></html>"></iframe>
+  </body>
+</html>

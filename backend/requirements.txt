@@ -1,0 +1,21 @@
+# FastAPI y ASGI
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# HTTP Client
+httpx>=0.26.0
+
+# Persistencia y migraciones
+SQLAlchemy>=2.0.0
+alembic>=1.13.0
+
+# Validación y settings
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+
+# Tests offline
+pytest>=8.0.0
+
+# POC aislado de navegación manual SII
+playwright>=1.62.0,<2.0.0

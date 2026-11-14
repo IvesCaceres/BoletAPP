@@ -1,0 +1,14 @@
+<!doctype html>
+<html><body>
+<form action="https://sii.invalid/cgi/retention.cgi?mode=fixture" method="post" onsubmit="applyRetention()">
+  <h1>Modalidad de retenci&#243;n</h1>
+  <label for="retain-a">El receptor de la boleta actuar&#225; reteniendo el porcentaje vigente de Pago Provisional Mensual.</label>
+  <input id="retain-a" type="radio" name="OptTipoRetencion" value="receiverChoice" checked />
+  <label for="retain-b">El contribuyente emisor ser&#225; quien se encargue de la retenci&#243;n del porcentaje vigente de Pago Provisional Mensual.</label>
+  <input id="retain-b" type="radio" name="OptTipoRetencion" value="issuerChoice" />
+  <input type="hidden" name="retention_source" value="fixture" />
+  <input type="hidden" name="unrelated_tax_field" value="not-captured" />
+  <button type="submit">Continuar</button>
+</form>
+<script>function applyRetention() { document.getElementById('retain-b').value = 'receiverChoice'; }</script>
+</body></html>

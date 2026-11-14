@@ -1,0 +1,6 @@
+"""Base declarativa de los modelos SQLAlchemy."""
+from sqlalchemy.orm import DeclarativeBase
+
+
+class Base(DeclarativeBase):
+    pass

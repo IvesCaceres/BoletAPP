@@ -1,0 +1,3 @@
+-r requirements.txt
+# Explicit plugin required by the two async fixture tests.
+pytest-asyncio==1.4.0
