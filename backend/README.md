@@ -1,6 +1,6 @@
-# Backend de AppBoletas
+# Backend de BoletAPP
 
-El backend local está implementado con FastAPI y SQLite. Sirve la API de AppBoletas, ejecuta las validaciones de negocio y coordina los flujos de emisión y lotes.
+El backend local está implementado con FastAPI y SQLite. Sirve la API de BoletAPP, ejecuta las validaciones de negocio y coordina los flujos de emisión y lotes.
 
 Para la descripción del producto, arquitectura, versión de escritorio y pruebas del release, consulta el [README principal](../README.md).
 

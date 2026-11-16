@@ -1,4 +1,4 @@
-# AppBoletas
+# BoletAPP
 
 Independent Windows application for preparing and managing Chilean electronic professional-fee receipts (Boletas de Honorarios Electrónicas, BHE). It is not an official SII application or endorsement.
 

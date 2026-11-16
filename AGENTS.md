@@ -1,4 +1,4 @@
-# AGENTS.md — AppBoletas
+# AGENTS.md — BoletAPP
 
 ## Git Identity Policy
 
@@ -32,6 +32,6 @@ Both commands must resolve to the required GitHub identity before committing.
 
 ### Scope
 
-This policy applies to all future commits in AppBoletas, including commits generated through automated development workflows.
+This policy applies to all future commits in BoletAPP, including commits generated through automated development workflows.
 
 Do not change the global Git configuration. Any necessary correction must be scoped to this repository.
